@@ -1,1 +1,2 @@
-adding a file which contains some tips for mac os.
+say - this command says with whatever preceeds after say.
+security find-generic-password -wa "Wifi Name" - this command prints the wifi password. Extra: cmd | pbcopy - adds password to clipboard.
