@@ -1,2 +1,15 @@
 say - this command says with whatever preceeds after say.
+
 security find-generic-password -wa "Wifi Name" - this command prints the wifi password. Extra: cmd | pbcopy - adds password to clipboard.
+
+screenshots name:
+  defaults write com.apple.screencapture name "screen_shot"
+type
+  defaults write com.apple.screencapture type jpg
+location
+  defaults write com.apple.screencapture location ~/Desktop/scrrenshots
+
+use touch id for sudo accesses:
+  sudo nano /etc/pam.d/sudo
+    auth sufficient pam_tid.so  - add this line at the start of the file.
+
